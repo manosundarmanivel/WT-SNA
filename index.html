@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selfmade Ninja Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  onload="window.alert('Page has been successfully loaded')"  >
+    <section id="home" class="home">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: black; ">
+        <div class="container">
+          <a class="navbar-brand " href="#">
+            <img class="logo" src="/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">About</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#course">Courses</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+              </li>
+              
+              <li class="nav-item ">
+                <a class=" btn btn-warning nav-link active" aria-current="page" href="signup.html" style="background-color: white; color: black ; font-weight: 700; border-color: white; font-size: 13px; border-radius: 20px;">SIGNUP NOW</a>
+              </li>
+              
+            </ul>
+           
+          </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+       
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Assets/wesson-wang-y0_vFxOHayg-unsplash.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <B><h5>World's First <span style="color: rgb(245, 93, 27);">Virtual</span> <br> <span style="color: rgb(245, 93, 27);">Academy</span> with a Virtual Private Network!</h5></B>
+              <p class="p1">Start Your Experiential Learning with
+                Selfmade Ninja Labs</p>
+              <p><button id="button" class="btn btn-warning mt-5" style="background-color: rgb(245, 93, 27); border-color: rgb(245, 93, 27); color: white; border-radius: 20px; font-weight: 800; height: 50px;"> JOIN COURSE</button></p>
+              <p id = "para" class="p1"></p>
+              <p><button id="button2" class="btn btn-warning mt-5" style="background-color: rgb(245, 93, 27); border-color: rgb(245, 93, 27); color: white; border-radius: 20px; font-weight: 800; height: 50px;"> Show Current Time</button></p>
+                
+              
+              <p id = "para2" class="p1"></p>
+
+            </div>
+          </div>
+         
+         
+        
+      </div>
+
+    </section>
+
+      <section id="about" class="about-section " style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <h2 class= "about" style="text-align: center; color: white; font-weight: 600;">About Us</h2>
+            </div>
+        </div>
+       
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img onmouseover="large(this)" onmouseout="small(this)" class="img-fluid" src="Assets/courses-removebg-preview(1).png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text">
+                        <h2> <span style="color:  rgb(245, 93, 27) ; font-weight: 800;">Oh yeah, it’s that good.</span> See for yourself.</h2>
+                        <p style="font-size: 18px
+                        ;">We have redefined the way you learn. Selfmade Ninja Academy is on a mission to bring the learning technology needed for 2022. Unlike your College Classroom with boring way of teaching, SNA introduces Objective Oriented Interactive Learning Strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<br>
+<hr style="color: white;">
+<br>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text">
+                        <h2 style="font-weight: 800;"> <span style="color:  rgb(245, 93, 27);">Try our labs.</span> It’ll blow your mind.
+                        </h2>
+                        <p style="font-size: 18px
+                        ;">Labs are created to change the way how you learn computer programming for real life. We are providing you destroyable servers where you can do any experiment and if anything goes wrong, you can redeploy your lab to factory settings in one click.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img onmouseover="large(this)" onmouseout="small(this)" class="img-fluid" src="Assets/labs-removebg-preview.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+<br>
+ <hr style="color: white;">
+<br>
+      <div class="container">
+            <div class="row">
+               <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img onmouseover="large(this)" onmouseout="small(this)"  class="img-fluid" src="Assets/5802664-removebg-preview.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text">
+                        <h2><span style="color:  rgb(245, 93, 27); font-weight: 800;">Connect.</span> Like Never Before.</h2>
+                        <p style="font-size: 18px
+                        ;"> We have created discuss.selfmade.ninja to change the way you interact with our community of learners. You can ask and answer doubts in a meaningful way that is open for everyone and is free for everyone, now and forever.</p>
+                    </div>
+                </div>
+           
+            </div>
+            
+      </div>
+      
+
+      </section>
+
+ 
+    <section id="course" class="course" style="background-color: black;" >
+     
+      <div class="container">
+        
+        <div class="row">
+            <h2 class= "about" style="text-align: center; color: white; font-weight: 600;">List Of Courses</h2>
+        </div>
+    </div>
+      <div class="container">
+        <br style="color: black;">
+        <br style="color: black;">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-md-auto">
+            <div class="card" style="width: 27rem;">
+              <img src="Assets/Xnip2023-02-08_23-36-00.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Full-Stack Web Engineering - Master course</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="row">
+                  <div class="col">
+                    <a href="#" class="btn btn-warning">View Course </a>
+                  </div>
+                  <div class="col">
+                    <a href="pay.html" class="btn btn-warning">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         <div class="col-2"></div>
+          <div class="col-md-auto">
+            <div class="card" style="width: 27rem;">
+              <img src="Assets/IOt0.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Internet of Things (IoT) - Master course</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="row">
+                  <div class="col">
+                    <a href="#" class="btn btn-warning">View Course </a>
+                  </div>
+                  <div class="col">
+                    <a href="#" class="btn btn-warning">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <br style="color: black;">
+        <br style="color: black;">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-md-auto">
+            <div class="card" style="width: 27rem;">
+              <img src="Assets/C programming Thumbnail 0.svg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">C Programming</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="row">
+                  <div class="col">
+                    <a href="#" class="btn btn-warning">View Course </a>
+                  </div>
+                  <div class="col">
+                    <a href="#" class="btn btn-warning">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         <div class="col-2"></div>
+          <div class="col-md-auto">
+            <div class="card" style="width: 27rem;">
+              <img src="Assets/Xnip2023-02-08_23-37-04.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">LAHTP - LEGACY</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="row">
+                  <div class="col">
+                    <a href="#" class="btn btn-warning">View Course </a>
+                  </div>
+                  <div class="col">
+                    <a href="#" class="btn btn-warning">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </div>
+    
+        <br>
+        <br>
+    </section>
+
+    <section id="contact" class="contact" style="background-color: black;">
+      <div class="container">
+        
+        <div class="row">
+            <h2 class= "about" style="text-align: center; color: white; font-weight: 600;">Contact Us</h2>
+        </div>
+    </div>
+    <br>
+     <div class="container">
+        
+        <div class="row">
+            <p  style="text-align: center; color: white; font-weight: 300; ">Need to get in touch with us ? Either fill out the form with you inquiry or find the <br>department Email you’d like to contact below</p>
+        </div>
+    </div>
+        <div class="conatiner">
+
+        </div>
+    </section>
+<!-- Footer -->
+<footer class="page-footer font-small blue" >
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3"   >© 2023 Copyright:
+    <a class="footer-copyright" href="/"> SelfmadeNinjaAcademy.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+   <script>
+   var btn = document.getElementById("button");
+   btn.addEventListener("click",fun);
+    function fun(){
+      document.getElementById("para").innerHTML= "This portal is still under development, but you can login to do the basic stuffs! Thanks for understanding.";
+    }
+
+    var btn2 = document.getElementById("button2");
+    btn2.addEventListener("click",date);
+
+    function date(){
+      document.getElementById("para2").innerHTML = Date();
+    }
+
+    function large(x){
+      x.style.height = "408px";
+      x.style.width = "812px";
+    }
+    function small(x){
+      x.style.height = "308px";
+      x.style.width = "712px";
+    }
+   </script> 
+ 
+
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

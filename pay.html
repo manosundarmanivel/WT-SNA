@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selfmade Ninja Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="pay.css">
+</head>
+<body >
+  
+  <section class="vh-100 gradient-custom" style="background-color: rgb(52, 52, 52);">
+    <form action="/" method="post">
+    <div class="container py-5 h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 col-lg-9 col-xl-7">
+          <div class="card shadow-2-strong card-registration" style="border-radius: 15px; background-color: black;" >
+            <div class="card-body p-4 p-md-5" >
+              <h3 class="mb-4 pb-2 pb-md-0 mb-md-5" style="color: white;">Payment Details</h3>
+              <form>
+  
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+  
+                    <div class="form-outline">
+                      <label class="form-label" for="firstName" style="color: white;" >Course Name<span style="color: red;">*</span></label>
+
+                      <input  name= "course" type="text" id="firstName" class="form-control form-control-lg" />
+                    </div>
+  
+                  </div>
+                  <div class="col-md-6 mb-4">
+  
+                    <div class="form-outline">
+                      <label class="form-label" for="firstName" style="color: white;"  >How do you know us?<span style="color: red;">*</span></label>
+
+                      <input name="know" type="text" id="lastName" class="form-control form-control-lg" />
+                     
+                    </div>
+  
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-md-6 mb-4 d-flex align-items-center">
+                    <div class="form-outline">
+                      <label class="form-label" for="firstName" style="color: white;" > Credit Points / Student Referral Code
+                        <span style="color: red;">*</span></label>
+
+                      <input name="point" type="text" id="lastName" class="form-control form-control-lg" />
+                     
+                    </div>
+                    
+  
+                  </div>
+                  <div class="col-md-6 mb-4">
+  
+                    <h6 class="mb-2 pb-1" style="color: white;">Gender: </h6>
+  
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                        value="option1" checked />
+                      <label class="form-check-label" for="femaleGender" style="color: white;">Female</label>
+                    </div>
+  
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                        value="option2" />
+                      <label class="form-check-label" for="maleGender" style="color: white;">Male</label>
+                    </div>
+  
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                        value="option3" />
+                      <label class="form-check-label" for="otherGender" style="color: white;">Other</label>
+                    </div>
+  
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="col-md-6 mb-4 pb-2">
+  
+                    <label class="form-label" for="firstName" style="color: white;" >Email<span style="color: red;">*</span></label>
+
+                      <input name="email" type="email" id="firstName" class="form-control form-control-lg" />
+  
+                  </div>
+                  <div class="col-md-6 mb-4 pb-2">
+  
+                    <div class="form-outline">
+                      <label class="form-label" for="firstName" style="color: white;" >Phone Number<span style="color: red;">*</span></label>
+
+                      <input name = phone type="text" id="firstName" class="form-control form-control-lg" />
+                    </div>
+  
+                  </div>
+                </div>
+  
+               
+  
+                <div class="mt-4 pt-2" >
+                  <p><button onclick="Alert()" type="submit" id="button2" class="btn btn-warning mt-5" style="background-color: rgb(245, 93, 27); border-color: rgb(245, 93, 27); color: white; border-radius: 20px; font-weight: 800; height: 50px;"> Pay Now</button></p>
+
+                </div>
+  
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  </section>    
+<!-- Footer -->
+<footer style="background-color: rgb(245, 93, 27);" class="page-footer font-small blue" >
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3"  style="color: white;"  >© 2023 Copyright:
+    <a class="footer-copyright" href="/" style="color: white;"> SelfmadeNinjaAcademy.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+</body>
+<script>
+  function Alert(){
+    alert("Payment Made Succesfully")
+  }
+</script>
+
+</html>
